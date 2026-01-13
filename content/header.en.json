@@ -1,0 +1,17 @@
+{
+  "topBar": {
+    "welcome": "Welcome to Shenzhen Shenye Jinzhan Materials Supply Co., Ltd."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Service Center",
+    "solutions": "Solutions",
+    "about": "About Us",
+    "introduction": "Company Profile",
+    "contact": "Contact Us"
+  },
+  "contact": {
+    "phone": "0755-86533396",
+    "email": "syjz@szsyjz.com"
+  }
+}

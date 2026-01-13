@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Shenzhen Shenye Jinzhan Materials Supply Co., Ltd. - Home",
+    "description": "One-Stop Supply Chain Solutions for Research Procurement"
+  },
+  "hero": {
+    "slide1": {
+      "title": "One-Stop Supply Chain Solutions<br>for Research Procurement",
+      "subtitle": "Import/Export Agency · Supply Chain Financing · Tax Consulting · Logistics Services · Offshore Outsourcing"
+    },
+    "slide2": {
+      "title": "Annual Equipment Import 3B+<br>Empowering Research Innovation",
+      "subtitle": "Providing Comprehensive Supply Chain Solutions for Research Procurement"
+    },
+    "slide3": {
+      "title": "20 Years Focus on Supply Chain<br>Your Trusted Partner",
+      "subtitle": "Professional Team · Global Resources · Custom Solutions · Compliance Assurance · Full Support"
+    }
+  },
+  "features": {
+    "item1": {
+      "title": "20 Years of Dedication",
+      "description": "A benchmark enterprise in research supply chain services."
+    },
+    "item2": {
+      "title": "80%+ First-Time Success",
+      "description": "Professional team ensures efficient business processing."
+    },
+    "item3": {
+      "title": "95%+ Classification Success",
+      "description": "Expert in equipment classification and duty-free policies."
+    }
+  },
+  "about": {
+    "tagline": "Welcome to company",
+    "title": "About Shenye Jinzhan",
+    "text1": "Shenzhen Shenye Jinzhan Materials Supply Co., Ltd. (hereinafter referred to as Shenye Jinzhan) was established in 2005, dedicated to serving high-tech industries, scientific research, and higher education fields. We are committed to building a high-level research outsourcing service platform for research facility construction and high-tech introduction, providing universities, research institutions, and high-tech enterprises with modern innovative supply chain services including pre-consulting, procurement agency execution, duty refund consulting and agency, supply chain settlement services, equipment authentication, and cross-border logistics.",
+    "text2": "Over the past 20 years, we have imported cutting-edge research equipment and advanced production lines worth over 10 billion RMB for hundreds of universities, research institutions, and R&D companies nationwide.",
+    "stats": {
+      "coverage": "Shenzhen University Coverage<br> <span class=\"odometer\" data-count=\"95\">95</span><span style=\"font-size: 2em;\">%</span>"
+    },
+    "btnText": "Learn More"
+  },
+  "counters": {
+    "import": "Total Equipment Import",
+    "service": "Annual Service Revenue",
+    "customers": "Customers Served",
+    "universities": "Universities"
+  },
+  "units": {
+    "billion": "B+",
+    "plus": "+"
+  },
+  "services": {
+    "tagline": "Services we're offering",
+    "title": "Our Services",
+    "service1": {
+      "title": "Import/Export Agency Services",
+      "description": "One-stop solution for procurement and sales order execution, import/export permit agency, customs declaration and inspection, foreign exchange collection and verification, making your cross-border trade efficient and worry-free."
+    },
+    "service2": {
+      "title": "Supply Chain Financing",
+      "description": "Providing procurement fund advance, bill purchase, and letter of credit services to inject financial vitality into your supply chain, alleviate funding pressure, and boost efficient business operations."
+    },
+    "service3": {
+      "title": "Import/Export Tax Consulting",
+      "description": "Providing scheme design, duty-free processing, and equipment classification services. We professionally control policy points to help you reduce costs compliantly and advance business efficiently."
+    },
+    "service4": {
+      "title": "Integrated Logistics Services",
+      "description": "Providing Shenzhen-Hong Kong and international transportation, chartering and booking, warehousing and distribution, and transit customs clearance services. Full-chain logistics assurance to efficiently open your cross-border logistics channels."
+    },
+    "service5": {
+      "title": "Offshore Outsourcing & Value-Added Services",
+      "description": "Providing offshore outsourcing, cargo insurance and claims, temporary import/export, and duty-free cargo supervision services. Full empowerment for cross-border business with compliant and efficient operations."
+    },
+    "service6": {
+      "title": "Pre-Bid Consulting",
+      "description": "Providing full-process consulting services including bid policy interpretation, qualification assessment, regulatory consulting, and bidding scheme design to help complete bidding projects compliantly and efficiently."
+    }
+  },
+  "special": {
+    "tagline": "OUR Special",
+    "title": "Our Advantages",
+    "subtitle": "From Pre-Consulting to Ongoing Support<br>Worry-Free Research Procurement",
+    "item1": {
+      "title": "Comprehensive Supply Chain Service System",
+      "description": "Covering pre-bid consulting, procurement agency execution, duty refund consulting and agency, supply chain settlement services, equipment authentication, and cross-border logistics – solving complex customer needs across all links."
+    },
+    "item2": {
+      "title": "Deep Industry Expertise",
+      "description": "Accumulated profound experience in specialized fields such as research, education, and healthcare, precisely matching the professional and compliance requirements of public procurement."
+    },
+    "item3": {
+      "title": "Global Resource Integration",
+      "description": "Long-term close cooperation with 100+ international brand manufacturers, ensuring the quality and timeliness of equipment and consumable supplies."
+    },
+    "item4": {
+      "title": "Emergency Response Mechanism",
+      "description": "Providing rapid deployment and flexible service support for urgent needs such as laboratory spare parts and consumables."
+    },
+    "item5": {
+      "title": "Industry-Academia-Research Collaboration",
+      "description": "Promoting technical cooperation and resource sharing between scientific research institutions and enterprises through supply chain services, accelerating the industrialization of innovation achievements."
+    }
+  },
+  "partners": {
+    "title": "Our Partners",
+    "clientsTitle": "Our Clients",
+    "suppliersTitle": "Our Suppliers"
+  },
+  "videoSection": {
+    "title": "20 Years of Research Supply Chain Excellence"
+  }
+}

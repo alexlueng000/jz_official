@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "深圳市深业晋展物料供应有限公司-联系我们",
+    "description": "科研采购一站式供应链解决方案服务商"
+  },
+  "pageHeader": {
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Contact"
+    },
+    "title": "联系我们"
+  },
+  "contact": {
+    "title": "联系方式",
+    "phone": "0755-86933396",
+    "email": "syjz@szsyjz.com",
+    "address": "深圳市罗湖区深南东路鸿昌广场1504-05"
+  }
+}

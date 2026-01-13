@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Shenzhen Shenye Jinzhan Materials Supply Co., Ltd. - Service Center",
+    "description": "One-Stop Supply Chain Solutions for Research Procurement"
+  },
+  "pageHeader": {
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Service Center"
+    },
+    "title": "Service Center"
+  },
+  "service1": {
+    "title": "Import/Export Agency Services",
+    "description": "We have provided import/export agency services for 200+ scientific research enterprises and institutions to date.",
+    "item0": "Procurement and sales order execution",
+    "item1": "Import/export permit agency services",
+    "item2": "Customs declaration, inspection, and on-site inspection",
+    "item3": "Foreign exchange collection and verification"
+  },
+  "service2": {
+    "title": "Supply Chain Financing",
+    "description": "Our supply chain financing services have provided over 500 million in credit support to customers.",
+    "item0": "Procurement and sales fund advance",
+    "item1": "Bill purchase and letter of credit"
+  },
+  "service3": {
+    "title": "Import/Export Tax Consulting",
+    "description": "Our import/export tax consulting services have saved customers over 50 million in taxes, effectively reducing tax costs and releasing financial vitality for enterprises.",
+    "item0": "Scheme design and consulting planning",
+    "item1": "Project filing",
+    "item2": "Duty-free entity qualification application",
+    "item3": "Duty-free procedure agency services",
+    "item4": "Equipment classification",
+    "item5": "Duty-free application report preparation"
+  },
+  "service4": {
+    "title": "Integrated Logistics Services",
+    "description": "Through efficient full-chain operations, our integrated logistics services have reduced cross-border cargo clearance time by 30%, improving supply chain turnover efficiency for customers.",
+    "item0": "Shenzhen-Hong Kong and international transportation",
+    "item1": "Chartering and booking services",
+    "item2": "Shenzhen-Hong Kong warehousing, bulk packing and distribution",
+    "item3": "Transit customs clearance, express, and bonded services",
+    "item4": "Shenzhen-Hong Kong terminal pickup and payment collection"
+  },
+  "service5": {
+    "title": "Offshore Outsourcing & Value-Added Services",
+    "description": "Our offshore outsourcing and value-added services have helped 200+ customers mitigate cross-border business risks, achieving a 95% compliant operation rate.",
+    "item0": "Offshore outsourcing services",
+    "item1": "Domestic equipment tax refund",
+    "item2": "Cargo insurance and claims agency",
+    "item3": "Temporary import/export",
+    "item4": "Off-site supervision of duty-free goods",
+    "item5": "Mobile supervision of duty-free goods"
+  },
+  "service6": {
+    "title": "Pre-Bid Consulting",
+    "description": "Our pre-bid consulting services have provided professional support to 100+ procurement units, improving bid compliance by 90%+ and reducing procurement cycles by 20% on average.",
+    "item0": "Bid policy interpretation and compliance guidance",
+    "item1": "Procurement requirement analysis and standardization",
+    "item2": "Custom bid scheme design and process planning",
+    "item3": "Procurement budget optimization and cost control recommendations"
+  }
+}

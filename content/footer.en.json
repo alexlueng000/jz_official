@@ -1,0 +1,27 @@
+{
+  "services": {
+    "title": "Service Center",
+    "items": [
+      "Import/Export Agency Services",
+      "Supply Chain Financing",
+      "Import/Export Tax Consulting",
+      "Integrated Logistics Services",
+      "Offshore Outsourcing & Value-Added Services"
+    ]
+  },
+  "solutions": {
+    "title": "Industry Solutions",
+    "items": [
+      "University Equipment Supply Chain Solutions",
+      "Research Institute Equipment Solutions",
+      "Hospital Medical Equipment Full-Chain Solutions"
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "phone": "0755-86933396",
+    "email": "syjz@szsyjz.com",
+    "address": "1504-05, Hongchang Plaza, Shennan East Road, Luohu District, Shenzhen"
+  },
+  "copyright": "Copyright © 2026. Shenzhen Shenye Jinzhan Materials Supply Co., Ltd. All rights reserved."
+}

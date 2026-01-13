@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "Shenzhen Shenye Jinzhan Materials Supply Co., Ltd. - Industry Solutions",
+    "description": "One-Stop Supply Chain Solutions for Research Procurement"
+  },
+  "pageHeader": {
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Industry Solutions"
+    },
+    "title": "Industry Solutions"
+  },
+  "badgeText": "Industry Solutions",
+  "education": {
+    "title": "University Equipment Supply Chain Solutions",
+    "description": "Addressing university needs for laboratory construction and teaching equipment updates, we provide full-cycle services covering 'equipment procurement - import customs clearance - tax planning - logistics distribution', solving issues such as long equipment introduction cycles and difficult policy control.",
+    "services": {
+      "title": "Core Services",
+      "service1Title": "Equipment Procurement & Import Agency",
+      "service1Text": "Providing procurement order execution and import/export permit agency services, with annual equipment import value exceeding <span class='highlight-number'>3 billion+</span>, ensuring rapid introduction of cutting-edge equipment.",
+      "service2Title": "Specialized Tax Planning",
+      "service2Text": "Customizing duty-free schemes for universities, handling duty-free entity qualification and procedures, achieving <span class='highlight-number'>95%+</span> equipment classification accuracy, saving over <span class='highlight-number'>30 million</span> in taxes for university customers.",
+      "service3Title": "Logistics Distribution",
+      "service3Text": "Providing Shenzhen-Hong Kong and domestic transportation, warehousing and distribution services. Equipped with professional transportation teams for precision instruments, achieving precise 'door-to-laboratory' equipment delivery with <span class='highlight-number'>95%</span> on-time rate.",
+      "item1": "Equipment Procurement and Import Agency: Providing procurement order execution and import/export permit agency services, with annual equipment import value exceeding 3 billion+, ensuring rapid introduction of cutting-edge equipment.",
+      "item2": "Specialized Tax Planning: Customizing duty-free schemes for universities, handling duty-free entity qualification and procedures, achieving 95%+ equipment classification accuracy, saving over 30 million in taxes for university customers.",
+      "item3": "Logistics Distribution: Providing Shenzhen-Hong Kong and domestic transportation, warehousing and distribution services. Equipped with professional transportation teams for precision instruments, achieving precise 'door-to-laboratory' equipment delivery with 95% on-time rate."
+    },
+    "case": {
+      "title": "Success Case",
+      "content": "Imported quantum computing experimental equipment worth 50 million for a key university in Shenzhen, saving over 6 million in taxes through professional tax planning. 100% success on first application, only 45 days from order confirmation to equipment arrival, significantly shortening the project preparation cycle."
+    }
+  },
+  "medical": {
+    "title": "Hospital Medical Equipment Full-Chain Solutions",
+    "description": "Addressing the strict requirements of top-tier hospitals for high-end medical equipment introduction and consumable supply chain management, we provide customized services focusing on 'compliance and efficiency - cost optimization - logistics assurance', helping hospitals improve diagnostic and treatment service capabilities.",
+    "services": {
+      "title": "Core Services",
+      "service1Title": "Medical Equipment Import Clearance",
+      "service1Text": "Familiar with medical equipment import regulations, handling import permits, customs declaration and inspection procedures. <span class='highlight-number'>80%+</span> first-time success rate, <span class='highlight-number'>30%</span> reduction in average clearance time, ensuring rapid clinical deployment.",
+      "service2Title": "Consumable Supply Chain Management",
+      "service2Text": "Providing Shenzhen-Hong Kong warehousing, bulk packing and distribution services, establishing dynamic inventory monitoring systems for consumables, achieving 'on-demand distribution, zero-inventory management', reducing hospital warehousing costs by <span class='highlight-number'>20%+</span>.",
+      "service3Title": "Bidding & Policy Consulting",
+      "service3Text": "Assisting hospitals in participating in medical equipment bidding projects, providing policy and regulation consulting and bid document review services, improving project success rate by <span class='highlight-number'>40%+</span>.",
+      "item1": "Medical Equipment Import Clearance: Familiar with medical equipment import regulations, handling import permits, customs declaration and inspection procedures. 80%+ first-time success rate, 30% reduction in average clearance time, ensuring rapid clinical deployment.",
+      "item2": "Consumable Supply Chain Management: Providing Shenzhen-Hong Kong warehousing, bulk packing and distribution services, establishing dynamic inventory monitoring systems for consumables, achieving 'on-demand distribution, zero-inventory management', reducing hospital warehousing costs by 20%+.",
+      "item3": "Bidding and Policy Consulting: Assisting hospitals in participating in medical equipment bidding projects, providing policy and regulation consulting and bid document review services, improving project success rate by 40%+."
+    },
+    "case": {
+      "title": "Success Case",
+      "content": "Imported proton therapy equipment worth 80 million for a top-tier hospital in Shenzhen, handling full import permits and duty-free procedures, saving over 9 million in taxes. Through customized logistics solutions, achieved safe equipment delivery and installation, 15 days ahead of schedule."
+    }
+  },
+  "research": {
+    "title": "Research Institute Specialized Equipment Solutions",
+    "description": "Focusing on major scientific research project needs of research institutes, we provide integrated 'policy adaptation - financial support - compliance supervision' services, helping research equipment arrive quickly and be used compliantly, ensuring smooth project progress.",
+    "services": {
+      "title": "Core Services",
+      "service1Title": "Policy Research & Project Filing",
+      "service1Text": "Real-time tracking of national and local research equipment import policies, assisting with project filing and duty-free applications. Accounting for <span class='highlight-number'>60%+</span> of research equipment duty-free filings in Shenzhen.",
+      "service2Title": "Supply Chain Financing Support",
+      "service2Text": "Providing procurement fund advance and letter of credit financing services, with bank credit limit of <span class='highlight-number'>500 million+</span>, alleviating research project funding pressure. Has provided over <span class='highlight-number'>200 million</span> in funding support to <span class='highlight-number'>15</span> research institutes.",
+      "service3Title": "Equipment Supervision & Value-Added Services",
+      "service3Text": "Providing off-site and mobile supervision services for duty-free equipment, ensuring compliant use. Also providing equipment insurance and claims agency services, with <span class='highlight-number'>90%</span> risk coverage rate.",
+      "item1": "Policy Research and Project Filing: Real-time tracking of national and local research equipment import policies, assisting with project filing and duty-free applications. Accounting for 60%+ of research equipment duty-free filings in Shenzhen.",
+      "item2": "Supply Chain Financing Support: Providing procurement fund advance and letter of credit financing services, with bank credit limit of 500 million+, alleviating research project funding pressure. Has provided over 200 million in funding support to 15 research institutes.",
+      "item3": "Equipment Supervision and Value-Added Services: Providing off-site and mobile supervision services for duty-free equipment, ensuring compliant use. Also providing equipment insurance and claims agency services, with 90% risk coverage rate."
+    },
+    "case": {
+      "title": "Success Case",
+      "content": "Completed a 200 million aerospace testing equipment import project for a national research institute, advancing 120 million in procurement funds through supply chain financing. 95%+ duty-free classification success rate, assisted with off-site use supervision filing, ensuring on-time project launch."
+    }
+  }
+}

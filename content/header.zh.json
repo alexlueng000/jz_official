@@ -1,0 +1,17 @@
+{
+  "topBar": {
+    "welcome": "欢迎访问深业晋展物料供应有限公司官方网站"
+  },
+  "nav": {
+    "home": "首页",
+    "services": "服务中心",
+    "solutions": "行业解决方案",
+    "about": "关于我们",
+    "introduction": "公司简介",
+    "contact": "联系我们"
+  },
+  "contact": {
+    "phone": "0755-86533396",
+    "email": "syjz@szsyjz.com"
+  }
+}

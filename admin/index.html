@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内容管理系统 - 深业晋展</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/all.min.css">
+    <link rel="stylesheet" href="cms.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <aside class="admin-sidebar">
+            <div class="admin-sidebar__header">
+                <h2>CMS</h2>
+                <p>深业晋展</p>
+            </div>
+            <nav class="admin-sidebar__nav">
+                <a href="?page=index" class="active" data-page="index">
+                    <i class="fas fa-home"></i> 首页
+                </a>
+                <a href="?page=services" data-page="services">
+                    <i class="fas fa-concierge-bell"></i> 服务中心
+                </a>
+                <a href="?page=solutions" data-page="solutions">
+                    <i class="fas fa-lightbulb"></i> 行业解决方案
+                </a>
+                <a href="?page=introduction" data-page="introduction">
+                    <i class="fas fa-building"></i> 公司简介
+                </a>
+                <a href="?page=contact" data-page="contact">
+                    <i class="fas fa-envelope"></i> 联系我们
+                </a>
+                <a href="?page=header" data-page="header">
+                    <i class="fas fa-header"></i> 页头导航
+                </a>
+                <a href="?page=footer" data-page="footer">
+                    <i class="fas fa-footer"></i> 页脚
+                </a>
+            </nav>
+            <div class="admin-sidebar__footer">
+                <a href="../index.html" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> 查看网站
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="admin-main">
+            <header class="admin-header">
+                <h1 id="pageTitle">首页内容</h1>
+                <div class="admin-header__actions">
+                    <span class="lang-indicator">
+                        <span class="lang-zh">中文</span> | <span class="lang-en">English</span>
+                    </span>
+                    <button class="btn-save" onclick="saveContent()">
+                        <i class="fas fa-save"></i> 保存更改
+                    </button>
+                </div>
+            </header>
+
+            <div class="admin-content">
+                <!-- Language Tabs -->
+                <div class="lang-tabs">
+                    <button class="lang-tab active" data-lang="zh" onclick="switchLangTab('zh')">
+                        <i class="fas fa-language"></i> 中文内容
+                    </button>
+                    <button class="lang-tab" data-lang="en" onclick="switchLangTab('en')">
+                        <i class="fas fa-globe"></i> English Content
+                    </button>
+                </div>
+
+                <!-- Editor Container -->
+                <div class="editor-container">
+                    <div id="editor-zh" class="editor-panel active">
+                        <div class="editor-panel__header">
+                            <h3>中文内容编辑</h3>
+                            <span class="filename">content/<span id="filename-zh">index.zh.json</span></span>
+                        </div>
+                        <textarea id="json-zh" class="json-editor" spellcheck="false"></textarea>
+                        <div id="error-zh" class="error-message"></div>
+                    </div>
+                    <div id="editor-en" class="editor-panel">
+                        <div class="editor-panel__header">
+                            <h3>English Content Editor</h3>
+                            <span class="filename">content/<span id="filename-en">index.en.json</span></span>
+                        </div>
+                        <textarea id="json-en" class="json-editor" spellcheck="false"></textarea>
+                        <div id="error-en" class="error-message"></div>
+                    </div>
+                </div>
+
+                <!-- Preview -->
+                <div class="preview-container">
+                    <div class="preview-header">
+                        <h4><i class="fas fa-eye"></i> 预览 / Preview</h4>
+                        <button class="btn-preview-refresh" onclick="loadContent()">
+                            <i class="fas fa-sync"></i>
+                        </button>
+                    </div>
+                    <div class="preview-compare">
+                        <div class="preview-side">
+                            <h5>中文</h5>
+                            <pre id="preview-zh" class="preview-content"></pre>
+                        </div>
+                        <div class="preview-side">
+                            <h5>English</h5>
+                            <pre id="preview-en" class="preview-content"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toast-message">保存成功</span>
+    </div>
+
+    <script src="cms.js"></script>
+</body>
+</html>

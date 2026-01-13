@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Shenzhen Shenye Jinzhan Materials Supply Co., Ltd. - About Us",
+    "description": "One-Stop Supply Chain Solutions for Research Procurement"
+  },
+  "pageHeader": {
+    "breadcrumb": {
+      "home": "Home",
+      "current": "About"
+    },
+    "title": "About Us"
+  },
+  "about": {
+    "tagline": "Our Company",
+    "title": "Company Profile",
+    "text1": "Established in 2005, Shenzhen Shenye Jinzhan Materials Supply Co., Ltd. serves high-tech industries, scientific research, and higher education fields. We provide comprehensive supply chain services including procurement agency, import/export processing, duty refund consulting, logistics, and equipment authentication for universities, research institutions, and high-tech enterprises.",
+    "text2": "Over 20 years, we have imported over 10 billion RMB worth of cutting-edge research equipment for hundreds of universities and research institutions nationwide. We support the development of national, provincial, and municipal key laboratories and R&D centers, contributing to scientific innovation and industrial advancement."
+  },
+  "values": {
+    "value": {
+      "number": "01",
+      "tag": "Values",
+      "title": "Corporate Values",
+      "text": "Research Procurement, Service at Heart"
+    },
+    "mission": {
+      "number": "02",
+      "tag": "Mission",
+      "title": "Corporate Mission",
+      "text": "Enable Researchers to Focus on Research, Make Procurement Worry-Free"
+    },
+    "vision": {
+      "number": "03",
+      "tag": "Vision",
+      "title": "Corporate Vision",
+      "text": "To Become the Industry Benchmark in China's Research Procurement Supply Chain Services"
+    },
+    "positioning": {
+      "number": "04",
+      "tag": "Positioning",
+      "title": "Corporate Positioning",
+      "text": "One-Stop Supply Chain Solution Provider for Research Procurement"
+    }
+  }
+}
