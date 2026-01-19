@@ -425,7 +425,7 @@
 			<span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
 			<div class="logo-box">
-				<a href="index.html" aria-label="logo image"><img src="static/picture/footer-logo.png" width="155" alt=""></a>
+				<a href="index.html" aria-label="logo image"><img src="static/image/logo.png" width="155" alt=""></a>
 			</div>
 			<!-- /.logo-box -->
 			<div class="mobile-nav__container"></div>
@@ -434,23 +434,13 @@
 			<ul class="mobile-nav__contact list-unstyled">
 				<li>
 					<i class="fa fa-envelope"></i>
-					<a href="mailto:needhelp@packageName__.com">needhelp@kontin.com</a>
+					<a href="mailto:syjz@szsyjz.com" data-i18n="contact.email" data-i18n-ns="header">syjz@szsyjz.com</a>
 				</li>
 				<li>
 					<i class="fa fa-phone-alt"></i>
-					<a href="tel:666-888-0000">666 888 0000</a>
+					<a href="tel:0755-86533396" data-i18n="contact.phone" data-i18n-ns="header">0755-86533396</a>
 				</li>
 			</ul><!-- /.mobile-nav__contact -->
-			<div class="mobile-nav__top">
-				<div class="mobile-nav__social">
-					<a href="#" class="fab fa-twitter"></a>
-					<a href="#" class="fab fa-facebook-square"></a>
-					<a href="#" class="fab fa-pinterest-p"></a>
-					<a href="#" class="fab fa-instagram"></a>
-				</div><!-- /.mobile-nav__social -->
-			</div><!-- /.mobile-nav__top -->
-
-
 
 		</div>
 		<!-- /.mobile-nav__content -->
@@ -522,11 +512,18 @@
         stickyContent.innerHTML = mainMenu.outerHTML;
         }
 
+        // 2.5. 复制主菜单到移动菜单容器
+        if (document.querySelector('.main-menu__list') && document.querySelector('.mobile-nav__container')) {
+          let navContent = document.querySelector('.main-menu__list').outerHTML;
+          let mobileNavContainer = document.querySelector('.mobile-nav__container');
+          mobileNavContainer.innerHTML = navContent;
+        }
+
         // 3. 强制刷新一次布局（给滚动监听器机会）
         window.dispatchEvent(new Event('resize'));
         window.dispatchEvent(new Event('scroll'));
 
-        // 4. 通知 header 已加载，用于 i18n 翻译
+        // 5. 通知 header 已加载，用于 i18n 翻译
         window.dispatchEvent(new Event('headerLoaded'));
     })
     .catch(err => console.error('Header load failed:', err));

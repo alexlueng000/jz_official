@@ -420,6 +420,12 @@
     let navContent = document.querySelector(".main-menu__list").outerHTML;
     let mobileNavContainer = document.querySelector(".mobile-nav__container");
     mobileNavContainer.innerHTML = navContent;
+
+    // 克隆语言切换器到移动菜单
+    if (document.querySelector(".main-header-two__top .lang-switcher")) {
+      let langSwitcher = document.querySelector(".main-header-two__top .lang-switcher").cloneNode(true);
+      mobileNavContainer.appendChild(langSwitcher);
+    }
   }
   if ($(".sticky-header__content").length) {
     let navContent = document.querySelector(".main-menu").innerHTML;
@@ -442,15 +448,24 @@
       self.find("button").on("click", function (e) {
         e.preventDefault();
         let self = $(this);
+        let submenu = self.parent().parent().children("ul");
+
         self.toggleClass("expanded");
         self.parent().toggleClass("expanded");
-        self.parent().parent().children("ul").slideToggle();
+
+        // 使用class切换代替slideToggle
+        if (submenu.hasClass('expanded')) {
+          submenu.removeClass('expanded');
+        } else {
+          submenu.addClass('expanded');
+        }
       });
     });
   }
 
   if ($(".mobile-nav__toggler").length) {
-    $(".mobile-nav__toggler").on("click", function (e) {
+    // 使用事件委托，确保动态加载的元素也能响应
+    $(document).off('click.mobileNav').on("click.mobileNav", ".mobile-nav__toggler", function (e) {
       e.preventDefault();
       $(".mobile-nav__wrapper").toggleClass("expanded");
       $("body").toggleClass("locked");
