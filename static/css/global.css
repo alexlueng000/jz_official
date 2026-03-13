@@ -583,6 +583,13 @@ html {
   object-fit: contain;
   display: block;
 }
+.suppliers-swiper .partner-logo img{
+  transform: scale(1.8);
+}
+.suppliers-swiper .partner-logo img[src*="supplier-13"],
+.suppliers-swiper .partner-logo img[src*="supplier-16"]{
+  transform: scale(1);
+}
 
 /* grid=2 的时候，swiper-wrapper 会变成多行：给一点上下间距更像“矩阵” */
 .swiper-wrapper{
