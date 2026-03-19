@@ -604,7 +604,8 @@ html {
   position: relative;
 }
 .awards-swiper .swiper-slide-active .partner-logo:has(img[src*="awards-1"]),
-.awards-swiper .swiper-slide-active .partner-logo:has(img[src*="awards-2"]){
+.awards-swiper .swiper-slide-active .partner-logo:has(img[src*="awards-2"]),
+.awards-swiper .swiper-slide-active .partner-logo:has(img[src*="awards-8"]){
   transform: scale(1.3);
 }
 
